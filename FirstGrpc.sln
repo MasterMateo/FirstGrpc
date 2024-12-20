@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGrpc", "FirstGrpc.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "..\Client\Client.csproj", "{D05532A9-6843-41E1-A922-310C9DE468CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "..\MVCClient\MVCClient.csproj", "{4AF6F12D-FC23-4773-AA13-00F00D94D5D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D05532A9-6843-41E1-A922-310C9DE468CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D05532A9-6843-41E1-A922-310C9DE468CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D05532A9-6843-41E1-A922-310C9DE468CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF6F12D-FC23-4773-AA13-00F00D94D5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF6F12D-FC23-4773-AA13-00F00D94D5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF6F12D-FC23-4773-AA13-00F00D94D5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF6F12D-FC23-4773-AA13-00F00D94D5D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

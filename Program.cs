@@ -1,3 +1,4 @@
+using FirstGrpc.Interceptors;
 using FirstGrpc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
 
 // Add services to the container.
-builder.Services.AddGrpc();
+builder.Services.AddGrpc(option =>
+{
+    option.Interceptors.Add<ServerLoggingInterceptor>();
+});
 
 var app = builder.Build();
 
